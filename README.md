@@ -1,6 +1,6 @@
 # KiloFight
 
-A beat 'em up game, with a set goal in mind: make it as small as possible, preferably less than 1 kilobyte. Right now, only a Lua version exists, but I'll make more versions in the future with other programming languages.
+A beat 'em up game, with a set goal in mind: make it as small as possible, preferably less than 1 kilobyte. Right now, only a Lua version exists, but I'll make more versions in the future with other programming languages golfed to hell and back.
 
 ---
 

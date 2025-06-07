@@ -1,5 +1,5 @@
 #!/bin/lua
-math.randomseed(os.time())U,E="U","\27["a=U:rep(32).."\nU"e={}n,m,x,y,r,w,t,h=20,a,2,2,math.random,io.write,0,10
+math.randomseed(os.time())U="U"E="\27["a=U:rep(32).."\nU"e={}n,m,x,y,r,w,t,h=20,a,2,2,math.random,io.write,0,10
 p=n
 for i=2,15 do
 for o=2,31 do
@@ -9,7 +9,7 @@ m=m..a
 for i=1,n do
 e[i]={x=r(2,31),y=r(2,15),h=5}end
 while""do
-w(E,"2J\27[HKiloFight - Mostafa Mortada\n",m,E,"17;33H ")for i=1,n do
+w(E,"2J\27[HKiloFight - Mostafa Mortada\n",m)for i=1,n do
 w(E,e[i].y+1,";",e[i].x,"H@",E,e[i].y+1,";35H",e[i].h)end
 w(E,y+1,";",x,"H&\27[18;1HEnemies:",p,"|HP:",h,"|>")i=io.read()c,v=x,y
 x=x+(i=="d"and 1 or i=="a"and-1 or 0)y=y+(i=="s"and 1 or i=="w"and-1 or 0)_=y*33-33+x
